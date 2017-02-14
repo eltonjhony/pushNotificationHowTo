@@ -15,7 +15,7 @@ export default class PushController extends Component {
       onRegister: function(token) {
         console.log( 'TOKEN:', token );
       },
-      senderID: "331841847225",
+      senderID: "<SENDER_ID>",
       onNotification: function(notification) {
         console.log('NOTIFICATION', notification);
         PushNotification.localNotification({
